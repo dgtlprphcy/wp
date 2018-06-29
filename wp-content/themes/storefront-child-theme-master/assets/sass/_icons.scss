@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'llicons';
+  src:
+    url('assets/fonts/llicons.ttf?tv5d9x') format('truetype'),
+    url('assets/fonts/llicons.woff?tv5d9x') format('woff'),
+    url('assets/fonts/llicons.svg?tv5d9x#llicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="llicons-"], [class*=" llicons-"], .llicons-extend {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'llicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.llicons-linkedin:before {
+  content: "\e906";
+}
+
+.llicons-instagram:before {
+  content: "\e904";
+}
+.llicons-twitter:before {
+  content: "\e905";
+}
+
+.llicons-select:before {
+  content: "\e881";
+}
+
+.llicons-strawbcart:before {
+  content: "\e903";
+}
+
+.llicons-citrus:before {
+  content: "\e82b";
+}
+
+.llicons-zoom-in:before {
+  content: "\e925";
+}
+
+.llicons-recycle:before {
+  content: "\e67f";
+}
+
+.llicons-user:before {
+  content: "\e71e";
+}
+.llicons-user-plus:before {
+  content: "\e71f";
+}
+.llicons-users-plus:before {
+  content: "\e724";
+}
+
+.llicons-foodslice:before {
+  content: "\e902";
+}
+
+.llicons-fb:before {
+  content: "\e900";
+}
+.llicons-cargo-bike:before {
+  content: "\e901";
+}
+.llicons-phone:before {
+  content: "\e7a5";
+}
+.llicons-dinner:before {
+  content: "\e811";
+}
+.llicons-chef:before {
+  content: "\e813";
+}
+.llicons-menu:before {
+  content: "\e92b";
+}
+.llicons-cross2:before {
+  content: "\e935";
+}
+.llicons-plus:before {
+  content: "\e936";
+}
+.llicons-minus:before {
+  content: "\e937";
+}
+.llicons-arrow-right:before {
+  content: "\e944";
+}
+.llicons-chevron-left:before {
+  content: "\e93b";
+}
+.llicons-chevron-right:before {
+  content: "\e93c";
+}
+
+.llicons-cross-circle:before {
+  content: "\e95a";
+}
+
+.llicons-spin {
+  -webkit-animation: llicons-spin 2s infinite linear;
+  animation: llicons-spin 2s infinite linear;
+  -webkit-filter: blur(0); 
+}
+.llicons-pulse {
+  -webkit-animation: llicons-spin 1s infinite steps(8);
+  animation: llicons-spin 1s infinite steps(8);
+  -webkit-filter: blur(0); 
+}
+@-webkit-keyframes llicons-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes llicons-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.llicons-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.llicons-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.llicons-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.llicons-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.llicons-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .llicons-rotate-90,
+:root .llicons-rotate-180,
+:root .llicons-rotate-270,
+:root .llicons-flip-horizontal,
+:root .llicons-flip-vertical {
+  filter: none;
+}

@@ -1,0 +1,369 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-13 23:05+0100\n"
+"PO-Revision-Date: 2017-01-13 23:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/core/class-woocommerce-groupon.php:423
+msgid " or "
+msgstr " oder "
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:527
+#, php-format
+msgid "%s%s %s"
+msgstr "%s%s %s"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:523
+#, php-format
+msgid "%s%s %s in %s"
+msgstr "%s%s %s in %s"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:518
+#, php-format
+msgid "%s%s %s on %s"
+msgstr "%s%s %s auf %s"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:520
+#: lib/views/class-woocommerce-groupons-shortcodes.php:525
+#, php-format
+msgid "%s%s %s on selected products"
+msgstr "%s%s %s auf ausgewählten Produkten"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:499
+#: lib/views/class-woocommerce-groupons-shortcodes.php:505
+#, php-format
+msgid "%s%s Discount"
+msgstr "%s%s Rabatt"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:495
+#, php-format
+msgid "%s%s Discount in %s"
+msgstr "%s%s Rabatt in %s"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:490
+#, php-format
+msgid "%s%s Discount on %s"
+msgstr "%s%s Rabatt auf %s"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:492
+#: lib/views/class-woocommerce-groupons-shortcodes.php:497
+#, php-format
+msgid "%s%s Discount on selected products"
+msgstr "%s%s Rabatt auf ausgewählte Produkte"
+
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:98
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:119
+#: lib/admin/class-woocommerce-groupons-coupons-roles-admin.php:72
+msgid "-"
+msgstr "-"
+
+#: lib/core/class-woocommerce-groupons.php:128
+msgid ""
+"<em>WooCommerce Group Coupons</em> needs the <a href=\"http://www.woothemes."
+"com/woocommerce/\" target=\"_blank\">WooCommerce</a> plugin. Please install "
+"and activate it."
+msgstr ""
+"<em>WooCommerce Group Coupons</em> benötigt das <a href=\"http://www."
+"woothemes.com/woocommerce/\" target=\"_blank\">WooCommerce</a> Plugin. Bitte "
+"dieses installieren und aktivieren."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:97
+#: lib/admin/class-woocommerce-groupons-admin.php:139
+msgid "<h3>Groups</h3>"
+msgstr "<h3>Gruppen</h3>"
+
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:48
+#, php-format
+msgid "<span title=\"%s\">Auto</span>"
+msgstr "<span title=\"%s\">Auto</span>"
+
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:44
+#, php-format
+msgid "<span title=\"%s\">Groups</span>"
+msgstr "<span title=\"%s\">Gruppen</span>"
+
+#: lib/admin/class-woocommerce-groupons-coupons-roles-admin.php:41
+#, php-format
+msgid "<span title=\"%s\">Roles</span>"
+msgstr "<span title=\"%s\">Rollen</span>"
+
+#: lib/core/class-woocommerce-groupon.php:247
+msgid ""
+"<strong>Automatic application</strong> - apply the coupon to group members "
+"automatically"
+msgstr ""
+"<strong>Automatische Anwendung</strong> - den Gutschein bei "
+"Gruppenmitgliedern automatisch anwenden"
+
+#: lib/core/class-woocommerce-groupon.php:295
+msgid ""
+"<strong>Exclude Groups</strong> - exclude group members from using this "
+"coupon"
+msgstr ""
+"<strong>Gruppen ausschließen</strong> - Gruppenmitglieder von diesem "
+"Gutschein ausschließen"
+
+#: lib/core/class-woocommerce-groupon.php:198
+#: lib/core/class-woocommerce-groupon.php:351
+msgid "<strong>Groups</strong> - limit the coupon to group members"
+msgstr ""
+"<strong>Gruppen</strong> - den Gutschein auf Gruppenmitglieder beschränken"
+
+#: lib/core/class-woocommerce-group-coupon-roles.php:103
+msgid "<strong>Roles</strong> - limit the coupon to roles"
+msgstr "<strong>Rollen</strong> - den Gutschein auf Rollen beschränken"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:58
+msgid "Access denied."
+msgstr "Zugriff verweigert."
+
+#: lib/core/class-woocommerce-groupon.php:256
+msgid "Apply automatically for groups"
+msgstr "Automatisch für Gruppen anwenden"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:100
+msgid "Automatic group coupons"
+msgstr "Automatische Gruppengutscheine"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:110
+msgid ""
+"Automatic group coupons are coupons that are applied to group members "
+"automatically."
+msgstr ""
+"Automatische Gruppengutscheine sind solche die für Gruppenmitglieder "
+"automatisch angewandt werden."
+
+#: lib/core/class-woocommerce-groupon.php:214
+#: lib/core/class-woocommerce-groupon.php:215
+#: lib/core/class-woocommerce-groupon.php:260
+#: lib/core/class-woocommerce-groupon.php:261
+#: lib/core/class-woocommerce-groupon.php:308
+#: lib/core/class-woocommerce-groupon.php:309
+msgid "Choose groups &hellip;"
+msgstr "Gruppen auswählen &hellip;"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:113
+msgid "Coupon error message"
+msgstr "Gutschein Fehlermeldung"
+
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:48
+msgid "Coupons are automatically applied to members of the groups shown."
+msgstr ""
+"Gutscheine werden für Mitglieder der angezeigten Gruppen automatisch "
+"angewendet."
+
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:45
+msgid "Coupons are limited to members of the groups shown."
+msgstr "Gutscheine sind beschränkt auf Mitglieder der angezeigten Gruppen."
+
+#: lib/admin/class-woocommerce-groupons-coupons-roles-admin.php:41
+msgid "Coupons are limited to the roles shown."
+msgstr "Gutscheine sind auf die angezeigten Rollen beschränkt."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:160
+msgid "Coupons can be limited by user role when this option is enabled."
+msgstr ""
+"Gutscheine können auf Rollen beschränkt werden wenn diese Option aktiviert "
+"ist."
+
+#: lib/admin/class-woocommerce-groupons-coupons-admin.php:46
+msgid "Coupons cannot be used by members of groups shown within parenthesis."
+msgstr ""
+"Gutscheine können nicht von Mitgliedern der in Klammern angezeigten Gruppen "
+"angewendet werden."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:106
+msgid "Enable automatic coupons"
+msgstr "Automatische Gutscheine aktivieren"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:156
+msgid "Enable coupon restrictions based on roles."
+msgstr "Gutscheine beschränkt auf Rollen aktivieren."
+
+#: lib/core/class-woocommerce-groupon.php:304
+msgid "Exclude groups"
+msgstr "Gruppen ausschließen"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:42
+#: lib/admin/class-woocommerce-groupons-admin.php:43
+#: lib/admin/class-woocommerce-groupons-admin.php:89
+msgid "Group Coupons"
+msgstr "Gruppengutscheine"
+
+#: lib/core/class-woocommerce-groupon.php:164
+msgid "Groups"
+msgstr "Gruppen"
+
+#: lib/core/class-woocommerce-groupon.php:324
+msgid ""
+"If any group is selected, the coupon cannot be used by the group members."
+msgstr ""
+"Wenn eine Gruppe ausgewählt ist, kann der Gutschein nicht von Mitgliedern "
+"der Gruppe verwendet werden."
+
+#: lib/core/class-woocommerce-groupon.php:233
+msgid ""
+"If no group is selected, the coupon is not restricted to any group members."
+msgstr ""
+"Wenn keine Gruppe ausgewählt ist, ist der Gutschein nicht auf "
+"Gruppenmitglieder beschränkt."
+
+#: lib/core/class-woocommerce-group-coupon-roles.php:140
+msgid "If no role is selected, the coupon is not restricted to any roles."
+msgstr ""
+"Wenn keine Rolle ausgewählt ist, dann ist der Gutschein nicht auf Rollen "
+"beschränkt."
+
+#: lib/core/class-woocommerce-groupon.php:284
+msgid ""
+"If the coupon should only be available to members of the selected groups, "
+"you must also limit the coupon to these groups."
+msgstr ""
+"Soll der Gutschein nur Mitgliedern der ausgewählten Gruppen zugänglich sein, "
+"muss der Gutschein auch auf diese Gruppen beschränkt werden."
+
+#: lib/core/class-woocommerce-groupon.php:282
+msgid "Important: "
+msgstr "Wichtig: "
+
+#: lib/core/class-woocommerce-groupon.php:210
+msgid "Limit to groups"
+msgstr "Auf Gruppen beschränken"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:163
+msgid "Logout"
+msgstr "Abmelden"
+
+#: lib/core/class-woocommerce-group-coupon-roles.php:111
+msgid "No restriction"
+msgstr "Ohne Beschränkung"
+
+#: lib/core/class-woocommerce-group-coupon-roles.php:116
+msgid "No roles"
+msgstr "Keine Rollen"
+
+#: lib/core/class-woocommerce-groupon.php:231
+msgid "Only members of the selected groups will be allowed to use the coupon."
+msgstr ""
+"Der Gutschein kann nur von Mitgliedern der ausgewählten Gruppen verwendet "
+"werden."
+
+#: lib/core/class-woocommerce-group-coupon-roles.php:138
+msgid ""
+"Only users who have one of the selected roles will be allowed to use the "
+"coupon."
+msgstr ""
+"Der Gutschein kann nur von Benutzern die eine der ausgewählten Rollen haben "
+"verwendet werden."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:145
+msgid "Related settings will be shown if <em>Groups</em> is activated."
+msgstr ""
+"Zugehörige Einstellungen werden angezeigt wenn <em>Groups</em> aktiviert ist."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:169
+msgid "Remove coupons after logout."
+msgstr "Gutscheine nach Abmeldung entfernen."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:150
+#: lib/core/class-woocommerce-group-coupon-roles.php:80
+#: lib/core/class-woocommerce-group-coupon-roles.php:114
+msgid "Roles"
+msgstr "Rollen"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:178
+msgid "Save"
+msgstr "Speichern"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:123
+msgid ""
+"Show a customized error message when applying a coupon fails due to the user "
+"not being a member of a required group."
+msgstr ""
+"Eine angepasste Fehlermeldung wird angezeigt wenn ein Gutschein nicht "
+"angewendet werden kann weil der Benutzer nicht Mitglied einer erforderlichen "
+"Gruppe ist."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:119
+msgid "Show the customized message"
+msgstr "Die angepasste Nachricht anzeigen"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:514
+msgid "Sign Up Discount"
+msgstr "Rabatt zur Anmeldung"
+
+#: lib/views/class-woocommerce-groupons-shortcodes.php:512
+msgid "Subscription Discount"
+msgstr "Rabatt zum Abonnement"
+
+#: lib/admin/class-woocommerce-groupons-admin.php:142
+#: lib/core/class-woocommerce-groupon.php:354
+msgid ""
+"The <a href=\"http://www.itthinx.com/plugins/groups/\">Groups</a> plugin "
+"must be installed and activated to limit coupons to group members."
+msgstr ""
+"Das <a href=\"http://www.itthinx.com/plugins/groups/\">Groups</a> plugin "
+"muss installiert und aktiviert sein um Gutscheine auf Gruppenmitglieder "
+"beschränken zu können."
+
+#: lib/core/class-woocommerce-groupon.php:277
+msgid ""
+"The coupon will be applied automatically to members of any of the selected "
+"groups."
+msgstr ""
+"Der Gutschein wird für Mitglieder der ausgewählten Gruppen automatisch "
+"angewandt."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:133
+#, php-format
+msgid "The default error message is <blockquote>%s</blockquote>"
+msgstr "Die Standardnachricht ist <blockquote>%s</blockquote>"
+
+#: lib/core/class-woocommerce-groupon.php:227
+#: lib/core/class-woocommerce-groupon.php:273
+#: lib/core/class-woocommerce-groupon.php:321
+msgid "There are no groups available to select. At least one group must exist."
+msgstr ""
+"Es stehen keine Gruppen zur Verfügung. Es muss zumindest eine Gruppe "
+"existieren."
+
+#: lib/core/class-woocommerce-group-coupon-roles.php:133
+msgid "There are no roles available."
+msgstr "Es stehen keine Rollen zur Verfügung."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:131
+#, php-format
+msgid ""
+"Use the <code>%s</code> placeholder where the names of the groups should be "
+"shown."
+msgstr ""
+"Den Platzhalter <code>%s</code> verwenden wo die Namen der Gruppen angezeigt "
+"werden sollen."
+
+#: lib/admin/class-woocommerce-groupons-admin.php:173
+msgid ""
+"When this option is enabled, all coupons are removed from the cart after a "
+"user logs out."
+msgstr ""
+"Wenn diese Option aktiviert ist, dann werden alle Gutscheine vom "
+"Einkaufswagen entfernt nachdem ein Benutzer sich abmeldet."
+
+#: lib/core/constants.php:24
+#, php-format
+msgid "You must be a <em>%s</em> member to use this coupon."
+msgstr ""
+"Um diesen Gutschein zu verwenden muss man Mitglied von <em>%s</em> sein."

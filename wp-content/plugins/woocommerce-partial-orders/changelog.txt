@@ -1,0 +1,31 @@
+1.2.2 - Feb 13th, 2017
+-----------------------------
+Fix: Added Woocommerce 2.6 bulk edit compatibility
+Fix: Added Partially Completed icon to orders list
+
+1.2.1 - Feb 25th, 2015
+-----------------------------
+Fix: Woocommerce 2.3 compatibility
+
+1.2 - Oct 29th, 2014
+-----------------------------
+Feature: Send emails to customer notifying them of what has been shipped.
+Fix: Rewrote order status functionality for Woocommerce 2.2
+Fix: Fixed unsafe script error in Chrome
+Fix: Rewrote bulk shipped status updates for order items
+Fix: Removed shipped status setting for delivery in order
+
+1.1.1 - Apr 28th, 2014
+-----------------------------
+Fix: Fixed bug with plugins folder name
+
+1.1 - Apr 23rd, 2014
+-----------------------------
+Feature: Set different quantities of order items as shipped
+Feature: History of previous quantities shipped of order item
+Feature: Automatically set all remaining quantities of order items as shipped
+Fix: Woocommerce 2.1 compatibility and bug fixes
+
+1.0 - Oct 4th, 2013
+-----------------------------
+* Initial release

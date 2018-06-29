@@ -1,0 +1,25 @@
+<h3 style="background-color: #ECECEC; padding: 7px; margin: 5px 0;">History</h3>
+<table width="100%">
+	<tr>
+		<th>Date</th>
+		<th>Quantity Shipped</th>
+	</tr>
+	
+	<?php foreach( $shipped_info as $info ){ ?>
+		<tr>
+			<td style="text-align: center; border-top: 1px dotted #999; padding: 5px;"><?php echo $info['date']; ?></td>
+			<td style="text-align: center; border-top: 1px dotted #999; padding: 5px;"><?php echo $info['qty']; ?></td>
+		</tr>
+	<?php } ?>
+	
+</table>
+
+<!-- Delete history -->
+<?php if( get_option( 'woocommerce_partial_orders_mark_not_shipped', 'no' ) == 'yes' ){ ?>
+                
+	<br />
+	<div style="text-align: center;">
+		<span onclick="woocommerce_partial_orders_set_item_unshipped(<?php echo $item_id; ?>, <?php echo $order_id; ?>);" style="color: red; font-size: 12px; cursor: pointer; text-decoration: underline;">Click here to delete history and set product as not shipped</span>
+	</div>
+
+<?php } ?>

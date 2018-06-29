@@ -1,0 +1,96 @@
+Set the date shipped and quantity shipped for the product: <?php echo $product->get_title(); ?><br /><br />
+<form id="partial_orders_item_update_form" name="partial_orders_item_update_form" style="border: 1px solid #333; padding: 5px; margin-bottom: 10px;">
+	<input id="item_id" type="hidden" name="item_id" value="<?php echo $item_id; ?>" />
+	<input type="hidden" name="order_id" value="<?php echo $order_id; ?>" />
+	<table width="100%">
+		<tr>
+			<td><strong>Date shipped</strong></td>
+			<td>
+				<span id="shipped_date_label">Today</span>
+				<input type="hidden" id="shipped_date" name="shipped_date" value="<?php echo date('M j, Y'); ?>" />
+				<span onclick="jQuery( '#shipped_date' ).datepicker('show')" style="cursor: pointer; color:#21759B; font-size:10px;">(Change)</span>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><strong>Quantity shipped</strong></td>
+			<td>
+				<select name="shipped_quantity" style="">
+					<?php for( $i = 1; $i <= $item_quantity - $quantity_shipped; $i++ ){ ?>
+						<option value="<?php echo $i; ?>" <?php if( $i == $item_quantity - $quantity_shipped ) echo 'selected'; ?>>
+							<?php echo $i; ?>
+						</option>
+					<?php } ?>
+				</select>
+			</td>
+		</tr>
+	</table>
+
+</form>
+
+<script>
+jQuery(function() {
+
+	jQuery( "#shipped_date" ).datepicker({
+		dateFormat: "M d, yy",
+		onSelect: function(date){ jQuery('#shipped_date_label').html(date); }
+	});
+	
+	var container = jQuery("#partial_orders_update_item_container");
+	
+	//we're outputting the form, add a save button
+	container.dialog({ //initialise dialog  
+		buttons: [
+			{
+				id: "partial_orders_save_close",
+				text: "Save & Close",
+				click: function() {
+					jQuery("#partial_orders_save_close").replaceWith('<span style="margin-right: 10px;"><img src="images/loading.gif" /> Working ...</span>');
+					
+					var item_id = jQuery('#partial_orders_item_update_form #item_id').val();
+					
+					//get the form and submit it
+					var form = jQuery('#partial_orders_item_update_form').serialize()
+					
+					var data = { 
+						action: 'wpo_set_item_shipped',
+						form_data: form 
+					};
+					
+					jQuery.post( ajaxurl, data, function(response) {
+						
+						if(response == '0' || response == '-1'){ //ajax failed           
+							container.html("Something went wrong when trying to save this items shipped status.");         
+						} else {	
+							var data = jQuery.parseJSON(response);
+							jQuery('tr.item[data-order_item_id=' + item_id + '] td.partial-orders').html(data.output);
+							
+							jQuery('#order_status option:selected').attr('selected', false); 
+							jQuery('#order_status option[value="wc-' + data.order_status + '"]').attr('selected', true);
+							jQuery('#order_status_chosen .chosen-single span').html(jQuery('#order_status option:selected').text());
+							
+							if(data.email_info == ''){
+								jQuery('.send-partial-orders-email').hide();
+							} else {
+								jQuery('.send-partial-orders-email').attr('data-tip', data.email_info);
+								wpo_init_tooltip();
+								jQuery('.send-partial-orders-email').show();
+							}
+							
+							container.dialog('close'); 
+							
+						}
+					});
+					
+				}
+			},
+			{
+				text: "Cancel",
+				click: function() {
+					jQuery( this ).dialog( "close" );
+				}
+			}
+		]
+	});
+});
+</script>

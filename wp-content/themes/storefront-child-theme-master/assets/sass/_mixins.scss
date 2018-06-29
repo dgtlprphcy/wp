@@ -1,0 +1,66 @@
+@mixin smooth-transition(){
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin horizontal-align($position: relative) {
+  position: $position;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+
+@mixin column-gutter() {
+ 
+	padding-left:$small-column-gutter; 
+	padding-right:$small-column-gutter; 
+
+	@media #{$medium-up}{
+
+	 	padding-left:$medium-column-gutter; 
+	 	padding-right:$medium-column-gutter; 
+
+	 }
+
+
+}
+
+
+@mixin topbottom-gutter() {
+ 
+	padding-top: $helper-thin;
+	padding-bottom: $helper-standard; 
+
+	@media #{$medium-up}{
+
+	 	padding-top: $helper-medium;
+	 	padding-bottom: $helper-thick;
+
+	 }
+
+
+}
+
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

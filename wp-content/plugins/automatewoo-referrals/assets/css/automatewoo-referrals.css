@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "automatewoo-referrals-icons";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "automatewoo-referrals-icons";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg"); } }
+
+.aw-referrals-share-buttons .btn:before {
+  display: inline-block;
+  font-family: "automatewoo-referrals-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+.aw-referrals-share-buttons .btn-email:before {
+  content: "\f100"; }
+
+.aw-referrals-share-buttons .btn-twitter:before {
+  content: "\f101"; }
+
+.aw-referrals-share-buttons .btn-facebook:before {
+  content: "\f102"; }
+
+.aw-email-referral-form p.form-row {
+  margin: 0 0 1em; }
+
+.aw-email-referral-form .woocommerce-Input {
+  width: 100%; }
+
+.aw-referrals-share-container {
+  clear: both; }
+
+.aw-referrals-share-buttons {
+  margin: 22px 0 2px;
+  font-size: 0;
+  text-align: center;
+  *zoom: 1; }
+  .aw-referrals-share-buttons:before, .aw-referrals-share-buttons:after {
+    content: " ";
+    display: table; }
+  .aw-referrals-share-buttons:after {
+    clear: both; }
+  .aw-referrals-share-buttons .btn {
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+    background: #43454b;
+    color: #fff;
+    padding: .7em 1.387em .95em;
+    line-height: 0.9;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    min-width: 240px;
+    font-size: 16px;
+    margin: 0 7px 9px; }
+    .aw-referrals-share-buttons .btn:before {
+      line-height: 1.4;
+      margin-right: 0.7em;
+      font-size: 1.2em;
+      position: relative;
+      top: 1px; }
+    .aw-referrals-share-buttons .btn:hover {
+      opacity: 0.9; }
+  .aw-referrals-share-buttons .btn-facebook {
+    background: #3B5998; }
+  .aw-referrals-share-buttons .btn-twitter {
+    background: #55acee; }
+
+.aw-referrals-share-or {
+  text-align: center;
+  margin: 0 0 1.1em;
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-size: 1.07em; }
+
+.aw-referrals-share-widget {
+  margin: 1.5em 0; }
+  @media (min-width: 900px) {
+    .aw-referrals-share-widget {
+      margin: 3em 0; } }
+  .aw-referrals-share-widget--position-thankyou-top {
+    margin-top: 0; }
+  .aw-referrals-share-widget--position-shortcode-sidebar {
+    width: 400px; }
+    .aw-referrals-share-widget--position-shortcode-sidebar .aw-referrals-share-buttons .btn {
+      width: 100%;
+      margin: 0 0 8px; }
+
+.aw-referrals-share-widget-text {
+  text-align: center; }
+  @media (min-width: 900px) {
+    .aw-referrals-share-widget-text {
+      padding: 0 1.5em; } }
+
+.aw-referrals-well {
+  background: #f8f8f8;
+  padding: 1em 2em; }
+  @media (min-width: 900px) {
+    .aw-referrals-well {
+      padding: 2.5em 4em; } }

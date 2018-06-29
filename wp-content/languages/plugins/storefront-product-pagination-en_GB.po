@@ -1,0 +1,72 @@
+# Translation of Plugins - Storefront Product Pagination - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Storefront Product Pagination - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-20 17:37:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Storefront Product Pagination - Stable (latest release)\n"
+
+#: storefront-product-pagination.php:167
+msgid "%sThanks for installing the Storefront Product Pagination extension. Configure the settings in the %sCustomizer%s.%s %sOpen the Customizer%s"
+msgstr "%sThanks for installing the Storefront Product Pagination extension. Configure the settings in the %sCustomiser%s.%s %sOpen the Customiser%s"
+
+#. Description of the plugin/theme
+msgid "Add unobstrusive links to next/previous products on your WooCommerce single product pages."
+msgstr "Add unobstrusive links to next/previous products on your WooCommerce single product pages."
+
+#: storefront-product-pagination.php:266
+msgid "Background color"
+msgstr "Background colour"
+
+#: storefront-product-pagination.php:267
+msgid "Background color for the product pagination links"
+msgstr "Background colour for the product pagination links"
+
+#: storefront-product-pagination.php:137 storefront-product-pagination.php:146
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: storefront-product-pagination.php:281
+msgid "Display products in same category"
+msgstr "Display products in same category"
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr "https://woothemes.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "http://woothemes.com/storefront/"
+msgstr "https://woothemes.com/storefront/"
+
+#: storefront-product-pagination.php:238
+msgid "Install Storefront now"
+msgstr "Install Storefront now"
+
+#: storefront-product-pagination.php:370
+msgid "More products"
+msgstr "More products"
+
+#: storefront-product-pagination.php:252
+msgid "Product Pagination"
+msgstr "Product Pagination"
+
+#. Plugin Name of the plugin/theme
+msgid "Storefront Product Pagination"
+msgstr "Storefront Product Pagination"
+
+#: storefront-product-pagination.php:238
+msgid "Storefront Product Pagination requires that you use Storefront as your parent theme."
+msgstr "Storefront Product Pagination requires that you use Storefront as your parent theme."
+
+#: storefront-product-pagination.php:282
+msgid "When enabled, pagination will only display links to products in the same category as the one currently being viewed."
+msgstr "When enabled, pagination will only display links to products in the same category as the one currently being viewed."
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
